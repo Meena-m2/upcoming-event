@@ -1,0 +1,17 @@
+body{
+    background-color:goldenrod;
+}
+.container{
+    display: grid;
+    grid-template-columns: minmax(600px,1fr) 1fr 1fr; 
+    /* grid-template-columns: repeat(autofill,minmax(200px,1fr)); */
+    grid-template-rows: 1fr 2fr 1fr;
+    column-gap: 20px;
+    row-gap: 50px; 
+
+}
+.para{
+    padding: 1rem;
+    background-color: steelblue;
+    color: white;
+}
